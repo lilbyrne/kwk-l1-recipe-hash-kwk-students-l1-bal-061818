@@ -21,7 +21,7 @@ def amount_of_chocolate_chips(perfect_10_recipe)
 end 
 
 def ingredients_and_amounts(perfect_10_recipe)
-  $perfect_10_recipe.each do |:ingredient, "amount"|
+  perfect_10_recipe.each do |:ingredient, "amount"|
   puts "You will need #{amount} of #{ingredient}."
 end
 
