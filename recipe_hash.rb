@@ -17,7 +17,7 @@ end
 recipe_ingredients
 
 
-def amount_of_chocolate_chips
+def amount_of_chocolate_chips(perfect_10_recipe)
   return chocolate_chips = $perfect_10_recipe.values[7]
 end 
 
