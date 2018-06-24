@@ -12,7 +12,7 @@ perfect_10_recipe = {
 }
 
 def recipe_ingredients(perfect_10_recipe)
-  return perfect_10_recipe
+  perfect_10_recipe
 end 
 recipe_ingredients
 
