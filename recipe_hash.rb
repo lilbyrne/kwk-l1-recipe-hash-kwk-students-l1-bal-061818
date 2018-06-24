@@ -22,7 +22,7 @@ end
 
 def ingredients_and_amounts(perfect_10_recipe)
   perfect_10_recipe.each do |:ingredient, "amount"|
-  puts "You will need #{amount} of #{ingredient}."
+  puts "You will need #{perfect_10_recipe[amount]} of #{perfect_10_recipe[:ingredient}."
 end
 
 def ingredients(perfect_10_recipe)
